@@ -56,5 +56,5 @@ jobs:
         with:
           app-name: 'myGigaApp'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_72E9D338F02446DB90C3234A3A55215C }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9572FC78F41B4F3AB26692CEC5BAF4A0 }}
           package: .
