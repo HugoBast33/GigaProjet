@@ -17,7 +17,7 @@
 
 <?php
 
-echo $_POST['nom'].'\n'.$_POST['age'];
+echo $_POST['nom'].'\r'.$_POST['age'];
 
 
 
