@@ -19,7 +19,7 @@
 
 echo $_POST['nom'].'<br>'.$_POST['age'];
 
-file_put_contents('https://github.com/HugoBast33/GigaProjet/blob/main/form.text', $_POST['nom'].' '.$_POST['age']);
+file_put_contents('./form.text', $_POST['nom'].' '.$_POST['age']);
 
 
 ?>
